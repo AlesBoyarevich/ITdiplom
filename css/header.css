@@ -1,0 +1,105 @@
+/*   menu   */
+.menu
+{
+    background-color: black;
+}
+
+
+
+
+
+/*   menu site   */
+.menu___site
+{
+    color: whitesmoke;
+}
+
+.menu___site hr
+{
+    margin: 0;
+    border-color: crimson;
+}
+
+
+
+
+
+/*   site extra   */
+.menu___site-extra
+{
+
+}
+
+.menu___site-extra ul
+{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 10%;
+}
+
+.menu___site-extra ul li, span
+{
+    padding: 5px 20px;
+    font-size: 12px;
+    text-wrap-mode: nowrap;
+}
+
+.menu___site-extra-citate 
+{
+    color: crimson;
+}
+
+.menu___site-extra-freespace 
+{
+    flex-grow: 1;
+}
+
+
+
+
+
+
+/*   site navigation   */
+.menu___site-nav
+{
+
+}
+
+.menu___site-nav ul
+{
+    display: flex;
+}
+
+.menu___site-nav ul li
+{
+    padding: 30px;
+}
+
+
+
+
+
+/*   page navigation   */
+.menu___page-nav
+{
+    color: whitesmoke;
+    background-color: crimson;
+}
+
+.menu___page-nav ul
+{
+    display: flex;
+    justify-content: center;
+}
+
+.menu___page-nav ul li
+{
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.anchor:hover
+{
+    background-color: whitesmoke;
+    color: crimson;
+}
