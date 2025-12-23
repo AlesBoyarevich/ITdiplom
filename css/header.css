@@ -1,20 +1,15 @@
-/*   menu   */
-.menu
+/*   header   */
+.header
 {
     background-color: black;
 }
 
-
-
-
-
-/*   menu site   */
-.menu___site
+.header___top
 {
     color: whitesmoke;
 }
 
-.menu___site hr
+.header___topline
 {
     margin: 0;
     border-color: crimson;
@@ -24,32 +19,32 @@
 
 
 
-/*   site extra   */
-.menu___site-extra
+/*   menu-info   */
+.menu-info
 {
-
+    transform: translate(0);
 }
 
-.menu___site-extra ul
+.menu-info___list
 {
     display: flex;
     justify-content: flex-end;
     padding: 0 10%;
 }
 
-.menu___site-extra ul li, span
+.menu-info___list-item
 {
     padding: 5px 20px;
     font-size: 12px;
     text-wrap-mode: nowrap;
 }
 
-.menu___site-extra-citate 
+.menu-info___citate 
 {
     color: crimson;
 }
 
-.menu___site-extra-freespace 
+.menu-info___freespace 
 {
     flex-grow: 1;
 }
@@ -59,46 +54,57 @@
 
 
 
-/*   site navigation   */
-.menu___site-nav
+/*   menu-links   */
+.menu-links
 {
-
+    transform: translate(0);
 }
 
-.menu___site-nav ul
+.menu-links___list
 {
     display: flex;
+    padding: 0 10%;
 }
 
-.menu___site-nav ul li
+.menu-links___list-item
 {
     padding: 30px;
 }
 
+.menu-links___list-item_aimed:hover
+{
+    background-color: crimson;
+}
+
+.menu-links___freespace
+{
+    flex-grow: 1;
+}
 
 
 
 
-/*   page navigation   */
-.menu___page-nav
+
+/*   menu-nav   */
+.menu-nav
 {
     color: whitesmoke;
     background-color: crimson;
 }
 
-.menu___page-nav ul
+.menu-nav___list
 {
     display: flex;
     justify-content: center;
 }
 
-.menu___page-nav ul li
+.menu-nav___list-item
 {
     padding: 10px 20px;
     text-align: center;
 }
 
-.anchor:hover
+.menu-nav___list-item_aimed:hover
 {
     background-color: whitesmoke;
     color: crimson;
