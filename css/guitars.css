@@ -1,0 +1,60 @@
+/*   base   */
+.title
+{
+    font-weight: 800;
+    font-size: 42px;
+    margin-bottom: 75px;
+}
+
+.table
+{
+    width: 100%;
+    border: 5px solid black;
+    border-radius: 30px;
+}
+
+.table___cell
+{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.table___head
+{
+    background-color: crimson;
+}
+
+/*   cells   */
+.table___title
+{
+    width: 33.3%;
+    font-weight: 700;
+    font-size: 20px;
+    border-top: 5px solid black;
+}
+
+.table___guitar
+{
+    width: 33.3%;
+}
+
+.table___guitar img
+{
+    width: 100%;
+}
+
+.table___artist
+{
+    width: 33.3%;
+}
+
+.table___artist img
+{
+    width: 100%;
+}
+
+.title___description
+{
+    width: 33.3%;
+    border-top: 5px solid black;
+}
