@@ -77,12 +77,13 @@
     padding: 10px;
 }
 
-.footer-nav___list-item a
+.footer-nav___list-item
 {
     color: whitesmoke;
+    text-decoration: underline;
 }
 
-.footer-nav___list-item a:hover
+.footer-nav___list-item:hover
 {
     color: crimson;
 }
