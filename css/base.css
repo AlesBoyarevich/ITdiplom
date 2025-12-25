@@ -17,3 +17,12 @@ a
 {
     color: whitesmoke;
 }
+
+@font-face {
+    font-family: "Serati";
+    font-style: italic;
+    font-weight: 400;
+    src: 
+        local("Serati"),
+        url("../fonts/Serati-Italic.otf")
+}

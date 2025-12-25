@@ -6,9 +6,7 @@
 .help___string
 {
     font-size: 48px;
-    font-weight: bold;
-    font-style: italic;
-    text-decoration: underline;
+    font-family: "Serati";
     color: crimson;
 }
 

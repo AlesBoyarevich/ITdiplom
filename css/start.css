@@ -1,5 +1,6 @@
 .title
 {
+    font-family: "Serati";
     font-size: 40px;
     font-weight: 900;
     text-align: center;
@@ -11,6 +12,7 @@
 {
     font-weight: 800;
     font-size: 30px;
+    font-family: "Serati";
 }
 
 .block-base___grid
