@@ -1,0 +1,41 @@
+.help
+{
+    margin-bottom: 75px;
+}
+
+.help___string
+{
+    font-size: 48px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    color: crimson;
+}
+
+.content
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2.5%;
+    row-gap: 40px;
+}
+
+.content___block
+{
+    transform: translate(0);
+}
+
+.content___image
+{
+    box-sizing: border-box;
+    width: 100%;
+    border: 3px solid crimson;
+    border-radius: 30px;
+    padding: 7%;
+}
+
+.content___text
+{
+    padding-top: 10px;
+    text-indent: 50px;
+}
