@@ -76,7 +76,11 @@
 {
     padding: 30px;
     font-size: 24px;
-    color:crimson;
+}
+
+.menu-links___list-item:visited
+{
+    color: crimson;
 }
 
 .menu-links___list-item_aimed:hover
